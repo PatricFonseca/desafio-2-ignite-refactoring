@@ -11,7 +11,8 @@ import React from "react";
 
 interface InputProps {
 	name: string;
-	icon: IconType;
+	icon?: IconType;
+	placeholder: string;
 }
 
 // interface InputRef extends HTMLInputElement {
